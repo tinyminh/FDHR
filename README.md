@@ -3,6 +3,8 @@ This is a Python Upscaler. Dependencies needs to be FFmpeg in PATH. And Python 3
 Uhh so this is freeware, please compile it to a binary using PyInstaller. Good if you want it to be daily use.
 Flags:
 the description i pasted code to chatgpt and it made the conclusion too lazy sorry if it is too Ai-ey
+Script Flags / Arguments
+Flag / Arg	Type	Default	Description
 --gui	boolean	False	Launches GUI file picker mode instead of CLI. GUI ignores most other arguments; uses defaults.
 input	string	N/A	Input video file (required in CLI mode).
 output	string	N/A	Output video file (required in CLI mode).
